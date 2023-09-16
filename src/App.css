@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  display:flex; 
+  flex-direction:column;
+  justify-content: space-between;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  align-items: center;
+  padding: 2em;
+}
+img{
+  margin-top: 10px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.badge{
+  min-width: 80%;
+  margin-top: auto;
+}
+
+.adopta{
+  justify-content: center;
+  display: flex;
+  gap: 1.5em;
+}
+
